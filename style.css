@@ -1,0 +1,100 @@
+body{
+    background-color: hsl(209, 100%, 50%);
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+#myForm{
+    text-align: center;
+    font-size: 0.85em;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 250px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+#myH1{
+    font-size: 2em;
+    color: hsl(0, 0%, 35%);
+    font-family: Arial;
+    font-weight: normal;
+}
+
+#myH2{
+    font-size: 1.75em;
+    color: hsl(0, 0%, 35%);
+    font-family: Arial;
+    font-weight: normal;
+}
+
+#myH3{
+    font-family: 1.75em;
+    color: hsl(0, 0%, 35%);
+    font-family: Arial;
+    font-weight: normal;
+}
+
+#textBox{
+    max-width: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    margin-right: 25px;
+    font-size: 2.5em;
+    color: hsl(0, 0%, 35%);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.357);
+}
+
+#checkAnswer{
+    max-width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    border: none;
+    background-color: hsl(209, 100%, 50%);
+}
+
+#checkAnswer:hover{
+    cursor: pointer;
+    background-color: hsl(209, 100%, 40%);
+}
+
+#playAgain{
+    max-width: 200px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    border: none;
+    background-color: hsl(209, 100%, 50%);
+    text-align: center;
+    margin-left: 145px;
+    display: none;
+}
+
+#playAgain:hover{
+    max-width: 200px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    border: none;
+    background-color: hsl(209, 100%, 40%);
+    text-align: center;
+}
+
+
+

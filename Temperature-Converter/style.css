@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(217, 100%, 52%);
+    background-image: url(https://i.pinimg.com/originals/f7/3a/56/f73a5624a6065044c91d3584cb1f80b6.jpg);
+}
+#name{
+    font-family: monospace;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+#nameBox{
+    border-radius: 5px;
+    border: 2px solid;
+    align-items: center;
+}
+
+h1{
+    color: hsla(191, 87%, 44%, 0.628);
+}
+h1:hover{
+    color: hsl(192, 100%, 50%)
+}
+
+form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0%, 0%, 0%, 0.8);
+    font-weight: bold;
+    border: 5px solid;
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsl(0%, 0%, 0%, 0.8);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid;
+    outline: none;
+    caret-color: black;
+}
+
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+button{
+    margin-top: 15px;
+    background-color: hsla(0, 95%, 61%, 0.563);
+    font-size: 1.5em;
+    border: 2px solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 100%, 50%);
+    border: 2px solid;
+}
+
+#result{
+    font-size: 1.90em;
+    font-weight: bold;
+}
+
+
+
+

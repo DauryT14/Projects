@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id=myForm>
+        <h1>Body Mass Index Calculator</h1><br>
+        <!--Age Part-->
+        <label for="age">Age</label>
+        <input id="age" placeholder="0"><br>
+
+        <!--Gender Part-->
+        <label id="gender">Gender</label>
+        <input type="radio" id="gender1" name="gen">
+        <label id="male" for="gender1">Male</label>
+        <input type="radio" id="gender2" name="gen">
+        <label id="female" for="gender2">Female</label><br>
+
+        <!--Height Part-->
+        <label id="height">Height</label>
+        <input id="feet" placeholder="feet">
+        <input id="inches" placeholder="inches"><br>
+
+        <!--Weight Part-->
+        <label>Weight</label>
+        <input id="weight" placeholder="pounds"><br>
+
+        <!--Result Part-->
+        <button id="calculate" type="button">Calculate</button>
+        <button id="clear" type="button">Clear</button>
+        <p id="result"></p>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -54,6 +54,7 @@ button{
     border-radius: 2px;
     border: none;
     font-size: 2rem;
+    border-radius: 5px;
 }
 
 #calculate{
